@@ -1,0 +1,25 @@
+:root {
+  --header-bg: rgba(251, 252, 255, 0.7);
+  --main-bg: rgb(237, 244, 255);
+  --black-color: rgb(17, 24, 40);
+
+  --light-red-color: rgb(246, 82, 82);
+  --red-color: rgb(234, 51, 64);
+
+  --light-green-color: rgb(19, 204, 98);
+  --green-color: rgb(25, 164, 69);
+
+  --dark-blue-color: rgb(29, 78, 216);
+  --light-blue-color: rgb(219, 234, 255);
+  --blue-color: rgb(37, 99, 234);
+  --light-purple-color: rgb(244, 232, 255);
+  --purple-color: rgb(143, 57, 228);
+  --lighter-green-color: rgb(222, 251, 229);
+  --white-color: rgb(251, 252, 255);
+  --dark-grey-color: rgb(61, 66, 72);
+  --grey-color: rgb(74, 86, 100);
+  --grey-color2: rgb(156, 164, 177);
+  --light-grey-color: rgb(209, 212, 221);
+
+  --progress-bar-grey-color: rgb(229, 231, 236);
+}

@@ -1,0 +1,68 @@
+.result {
+  background-color: rgba(241, 241, 241, 1);
+}
+
+.result__content {
+  background-color: rgb(255, 255, 255);
+}
+
+.result__trophy-block {
+  background: linear-gradient(90deg, rgb(69, 225, 124), rgb(58, 132, 243));
+}
+
+.result__heading {
+  color: var(--black-color);
+}
+
+.resulr__heading-text {
+  color: var(--grey-color);
+}
+
+.result__right-answers-block {
+  background: linear-gradient(90deg, rgb(62, 128, 246), rgb(144, 53, 234));
+}
+
+.result__right-answers {
+  color: var(--white-color);
+}
+
+.result__rigth-answers-text {
+  color: var(--light-grey-color);
+}
+
+.result__statictic-item {
+  background-color: rgb(249, 250, 252);
+}
+
+.result__devider {
+  border-color: var(--progress-bar-grey-color);
+}
+
+.result__statictic-item:first-child .result__statictic-number {
+  color: var(--blue-color);
+}
+
+.result__statictic-item:nth-child(2) .result__statictic-number {
+  color: var(--red-color);
+}
+
+.result__statictic-item:nth-child(3) .result__statictic-number {
+  color: var(--light-green-color);
+}
+
+.result__nav-li:first-child .result__nav-link {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+.result__nav-li:first-child .result__nav-link:hover {
+  background-color: var(--dark-blue-color);
+}
+
+.result__nav-link {
+  border-color: var(--grey-color2);
+}
+
+.result__nav-link:hover {
+  border-color: var(--blue-color);
+}

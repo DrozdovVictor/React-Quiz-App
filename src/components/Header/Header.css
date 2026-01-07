@@ -1,0 +1,68 @@
+@keyframes showMobileMenu {
+  from {
+    opacity: 0;
+    /* transform: translateY(-300px); */
+  }
+  to {
+    opacity: 1;
+    /* transform: translateY(0px); */
+  }
+}
+
+header {
+  display: flex;
+  background-color: var(--header-bg);
+}
+
+.header__logo-text {
+  color: var(--black-color);
+}
+
+.challenge-text {
+  color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    var(--blue-color),
+    var(--purple-color)
+  );
+  background-clip: text;
+  /* --webkit-text-fill-color: transparent; */
+}
+
+.header__nav-li-text {
+  color: var(--grey-color);
+}
+
+.header__nav-li-text:hover {
+  color: var(--blue-color);
+}
+
+.header__logo-block {
+  background: linear-gradient(var(--blue-color), var(--purple-color));
+}
+
+.header__nav-mobile-line {
+  background-color: var(--black-color);
+  transform-origin: right;
+}
+
+.header__nav-mobile.active .header__nav-mobile-line:first-child {
+  transform: translateY(-1px) rotate(-45deg);
+}
+
+.header__nav-mobile.active .header__nav-mobile-line:nth-child(2) {
+  opacity: 0;
+}
+
+.header__nav-mobile.active .header__nav-mobile-line:last-child {
+  transform: translate(0px, 0px) rotate(45deg);
+}
+
+.header__nav-mobile-content {
+  display: none;
+}
+
+.header__nav-mobile-content.active {
+  display: block;
+  animation: showMobileMenu 0.3s ease-in-out;
+}

@@ -1,0 +1,70 @@
+main {
+  background-color: var(--main-bg);
+}
+
+.main__heading {
+  color: var(--black-color);
+}
+
+.main__text {
+  color: var(--grey-color);
+}
+
+.main__play-btn {
+  color: var(--white-color);
+  border-color: var(--blue-color);
+  background-color: var(--blue-color);
+}
+
+.main__play-btn:hover {
+  border-color: var(--dark-blue-color);
+  background-color: var(--dark-blue-color);
+}
+
+.main__more-btn {
+  border-color: var(--light-grey-color);
+  color: var(--dark-grey-color);
+}
+
+.main__more-btn:hover {
+  border-color: var(--blue-color);
+}
+
+.main__card {
+  background-color: var(--white-color);
+}
+
+.main__card-heading {
+  color: var(--black-color);
+}
+
+.main__card-text {
+  color: var(--grey-color);
+}
+
+.main__card-img-block {
+  background-color: var(--light-blue-color);
+}
+
+.main__card-img {
+  background-color: var(--light-blue-color);
+  color: var(--blue-color);
+}
+
+.main__card:nth-child(2) .main__card-img-block {
+  background-color: var(--lighter-green-color);
+}
+
+.main__card:nth-child(2) .main__card-img {
+  background-color: var(--lighter-green-color);
+  color: var(--green-color);
+}
+
+.main__card:nth-child(3) .main__card-img-block {
+  background-color: var(--light-purple-color);
+}
+
+.main__card:nth-child(3) .main__card-img {
+  background-color: var(--light-purple-color);
+  color: var(--purple-color);
+}
