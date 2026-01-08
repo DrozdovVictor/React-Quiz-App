@@ -9,7 +9,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MainLayout />}>
+        <Route path="/React-Quiz-App" element={<MainLayout />}>
           <Route index element={<Main />} />
           <Route path="quiz" element={<Quiz />} />
           <Route path="results" element={<Result />} />

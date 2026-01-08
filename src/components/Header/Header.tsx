@@ -22,7 +22,7 @@ function Header() {
             <ul className="header__nav-ul gap-x-3 tablet:flex hidden">
               <li className="header__nav-li">
                 <Link
-                  to="/"
+                  to="."
                   className="header__nav-li-text hover:cursor-pointer duration-300"
                 >
                   Главная
@@ -30,7 +30,7 @@ function Header() {
               </li>
               <li className="header__nav-li">
                 <Link
-                  to="/quiz"
+                  to="quiz"
                   className="header__nav-li-text hover:cursor-pointer duration-300"
                 >
                   Викторина
@@ -38,7 +38,7 @@ function Header() {
               </li>
               <li className="header__nav-li">
                 <Link
-                  to="/results"
+                  to="results"
                   className="header__nav-li-text hover:cursor-pointer duration-300"
                 >
                   Результаты
@@ -66,7 +66,7 @@ function Header() {
           <ul className="header__nav-ul-mobile gap-y-3 mt-5 tablet:hidden flex flex-col">
             <li className="header__nav-li-mobile text-center ">
               <Link
-                to="/"
+                to="."
                 onClick={() => setModileNav(false)}
                 className="header__nav-li-text hover:cursor-pointer duration-300"
               >
@@ -75,7 +75,7 @@ function Header() {
             </li>
             <li className="header__nav-li-mobile text-center">
               <Link
-                to="/quiz"
+                to="quiz"
                 onClick={() => setModileNav(false)}
                 className="header__nav-li-text hover:cursor-pointer duration-300"
               >
@@ -84,7 +84,7 @@ function Header() {
             </li>
             <li className="header__nav-li-mobile text-center">
               <Link
-                to="/results"
+                to="results"
                 onClick={() => setModileNav(false)}
                 className="header__nav-li-text center hover:cursor-pointer duration-300"
               >

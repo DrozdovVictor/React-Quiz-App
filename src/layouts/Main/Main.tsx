@@ -16,7 +16,7 @@ function Main() {
             </p>
             <div className="main__btns-row flex tablet:flex-row flex-col items-center gap-y-4 justify-center mt-5 laptop-lg:gap-x-10 gap-x-7">
               <Link
-                to="/quiz"
+                to="/React-Quiz-App/quiz"
                 className="main__play-btn border-3 px-7 py-3 rounded-[10px] flex items-center justify-center gap-x-3 duration-300 hover:cursor-pointer hover:scale-[1.1]"
                 type="button"
               >

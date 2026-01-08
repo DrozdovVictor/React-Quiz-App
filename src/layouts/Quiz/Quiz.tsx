@@ -100,7 +100,7 @@ function Quiz() {
             </button>
             {currentQustion + 1 === questions.length ? (
               <Link
-                to="/results"
+                to="/React-Quiz-App/results"
                 className="quiz__previous-question-btn tablet:px-5 px-4 rounded-[15px] duration-300 hover:cursor-pointer font-semibold tablet:h-[45px] h-10 flex items-center"
                 onClick={() => {
                   userData.score = currentScore

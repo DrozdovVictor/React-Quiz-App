@@ -59,7 +59,7 @@ function Result() {
             <ul className="result__nav-ul flex gap-x-3 tablet:flex-row flex-col gap-y-5">
               <li className="result__nav-li grow">
                 <Link
-                  to="/quiz"
+                  to="/React-Quiz-App/quiz"
                   className="result__nav-link flex gap-x-2 py-3 font-semibold rounded-[10px] justify-center items-center h-full duration-300 px-5"
                 >
                   <p className="text-center mobile-lg:text-[16px] text-[14px]">
@@ -69,7 +69,7 @@ function Result() {
               </li>
               <li className="result__nav-li grow">
                 <Link
-                  to="/"
+                  to="/React-Quiz-App"
                   className="result__nav-link flex gap-x-2 py-3 font-semibold rounded-[10px] justify-center items-center h-full border-2 duration-300 px-5"
                 >
                   <p className="text-center mobile-lg:text-[16px] text-[14px]">
@@ -80,7 +80,7 @@ function Result() {
               </li>
               <li className="result__nav-li grow">
                 <Link
-                  to="/"
+                  to="/React-Quiz-App"
                   className="result__nav-link flex gap-x-2 py-3 font-semibold rounded-[10px] justify-center items-center h-full border-2 duration-300 px-5"
                 >
                   <p className="text-center mobile-lg:text-[16px] text-[14px]">
